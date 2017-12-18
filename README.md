@@ -6,20 +6,19 @@ EasyGUI可以在Python 2和Python 3上运行，无其它任何依赖。
 终端用法示例：
 
 
- #-*-coding:UTF-8-*-
+#-*-coding:UTF-8-*-
 
- >>> import easygui
+>>> import easygui
 
- >>> easygui.ynbox('继续?', '标题', ('是', '否'))
+>>> easygui.ynbox('继续?', '标题', ('是', '否'))
 
- True
+True
 
- >>> easygui.msgbox('此为简单的message box.', '标题在此')
+>>> easygui.msgbox('此为简单的message box.', '标题在此')
 
- 'OK'
+'OK'
 
- >>> easygui.buttonbox('选择你最爱的歌手','最爱歌手', ('洛天依', '乐正绫', '星尘'))
-
- '星尘'
+>>> easygui.buttonbox('选择你最爱的歌手','最爱歌手', ('洛天依', '乐正绫', '星尘'))
+'星尘'
 
 
