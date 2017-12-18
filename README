@@ -1,5 +1,5 @@
 
-EasyGUI是Python的一个简单易用的图形模块。和其它的GUI不同，EasyGUI没有事件驱动。而且，所有的GUI交互都是通过简单的函数来调用的。
+EasyGUI是Python的一个简单易用的图形模块。和其它的GUI不同，EasyGUI没有事件驱动。而且，所有的GUI交互都是通过调用简单的函数完成的。
 
 EasyGUI可以在Python 2和Python 3上运行，无其它任何依赖。
 
