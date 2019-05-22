@@ -44,7 +44,7 @@ easygui.buttonbox(msg='', title=' ', choices=('Button[1]', 'Button[2]', 'Button[
           - msg (str) :显示的信息
           - title (str) : 窗口标题
           - choices (list) : 可选的一列元组
-          - image (str) :(图像文件名，为了兼容旧版)
+          - image (str) :图像文件名，为了兼容旧版
           - images (str) : 图像文件名,可以迭代选择
           - default_choice (str) :默认选项
           - 返回值：用户点击的选项
