@@ -58,10 +58,10 @@ easygui.buttonbox(msg='', title=' ', choices=('Button[1]', 'Button[2]', 'Button[
 
 ### 可选参数： 
 
-        - msg (str) – 显示的消息
-         - title (str) – 窗口标题
-         - default (str) – 打开对话框的起始目录
-         - 返回值： 用户选择的文件路径
+         - msg (str) : 显示的消息
+         - title (str) : 窗口标题
+         - default (str) :打开对话框的起始目录
+         - 返回值: 用户选择的文件路径
 
 ### file openbox：
 
