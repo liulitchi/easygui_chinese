@@ -29,6 +29,7 @@ True
 ## easygui API
 
 ### 按钮框 (buttonbox):
+
 ```
 easygui.buttonbox(msg='', title=' ', choices=('Button[1]', 'Button[2]', 'Button[3]'), 
                   image=None, images=None, default_choice=None, 
@@ -40,23 +41,23 @@ easygui.buttonbox(msg='', title=' ', choices=('Button[1]', 'Button[2]', 'Button[
   
  ###  可选参数：
   
-          msg (str) – 显示的信息
-          title (str) – 窗口标题
-          choices (list) – 可选的一列元组
-          image (str) – (图像文件名，为了兼容旧版)
-          images (str) – 图像文件名,可以迭代选择
-          default_choice (str) – 默认选项
-          返回值：用户点击的选项
+          - msg (str) – 显示的信息
+          - title (str) – 窗口标题
+          - choices (list) – 可选的一列元组
+          - image (str) – (图像文件名，为了兼容旧版)
+          - images (str) – 图像文件名,可以迭代选择
+          - default_choice (str) – 默认选项
+          - 返回值：用户点击的选项
 
 ### 对话框 (dialog openbox)： 
-easygui.diropenbox(msg=None, title=None, default=None)
+> easygui.diropenbox(msg=None, title=None, default=None)
 
 ### 可选参数： msg (str) – 显示的消息
-         title (str) – 窗口标题
-         default (str) – 打开对话框的起始目录
-返回值： 用户选择的文件路径
+         - title (str) – 窗口标题
+         - default (str) – 打开对话框的起始目录
+         - 返回值： 用户选择的文件路径
 
-###（file openbox）：
+### file openbox：
 
 ```
 easygui.fileopenbox（msg = None，title = None，default ='*'，
