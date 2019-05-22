@@ -19,10 +19,13 @@ True
 ## 如何安装：
 
 最直接的方式(Python2): > pip install --upgrade easygui
+
 在Python3下：> pip3 install --upgrade easygui
+
 即可获取最新版的easygui。
 
 也可以去sourceforge下载:
+
 `https://sourceforge.net/projects/easygui/files/`
 
 
